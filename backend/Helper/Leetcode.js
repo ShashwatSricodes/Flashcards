@@ -1,7 +1,6 @@
 import axios from 'axios';
 
 const API_URL = "https://api.cohere.ai/generate";
-const API_KEY = "XomxNlUrVkioy7oQprLCCKSWJPOstJce4QPCRI9I";
 
 export async function generateOptimizedSolution(question) {
   try {
